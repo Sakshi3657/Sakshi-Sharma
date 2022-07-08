@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Food filter page</title>
+
+    <style>
+        
+     .container{
+     position: relative;
+     background-color: red;
+     border:2px solid red;
+     height: 50px;
+            
+   } 
+
+ .logo {
+    position: absolute;
+    top: 5px;
+    left: 45px;;
+    text-align: center;
+    color: red;
+    font-size: 200%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:white;
+   
+   
+}
+    .login{
+        position: absolute;
+            top: 5px;
+            left: 955px;
+            font-size: 18px;
+            margin-top: 3px;
+            margin-right: 50px;
+            margin-left: 100px;
+        
+    } 
+   
+        .create-account{
+            
+            position: absolute;
+            top: 5px;
+            left: 950px;
+            font-size: 18px;
+            margin-top: 4px;
+            margin-right: 50px;
+            margin-left: 155px;
+        }
+        .img{
+            top: 220px;
+           left: 473px;
+           width: 120px;
+           height: 120px;
+           opacity: 1;
+           border-radius: 30%;
+           margin-top: 15px;
+           margin-left: 15px;
+
+           
+        }
+
+        .top-head{
+            top: 117px;
+            padding: 15px;
+            margin-left: 56px;
+            margin-top: 30px;
+            width: 514px;
+            height: 51px;
+            text-align: center;
+            font: normal normal bold 36px/55px Poppins;
+            letter-spacing: 0px;
+            color: #192F60;
+            opacity: 1;
+        }
+        
+
+        
+        .box{
+           
+            border: 2px solid black;
+            width: 610px;
+            height: 230px;
+            margin: 5px;
+            margin-left: 550px;
+            margin-top: 70px;
+            
+           
+
+        }
+
+        #box1{
+            margin-top: 24px;
+            height: 237px;
+        
+            
+        }
+        #box2{
+            
+            margin: 60px auto;
+            margin-top: 25px;
+            height:237px;
+            
+            
+        }
+
+        #box-3{
+            position: absolute;
+            display: block;
+            border: 2px solid black;
+            width: 250px;
+            height: 510px;
+            margin-left: 40px;
+            margin-top: 50px;
+            padding-top: 20px;
+            top: 195px;
+            left: 113px;
+            margin:auto;
+        }
+
+
+        .content-box {
+            margin-left: 12px;
+            margin-top: 20px;
+            font-size: large;
+            
+        }
+        
+        .qs-right {
+            display: inline-block;
+            left: 900px;
+            vertical-align: top;
+            width: 50%;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 100px;
+            size:60px;
+           
+     
+        }
+
+        .qs-left {
+              display: inline-block;
+              width: 50px;
+              height: 50px;
+            vertical-align: top;
+            margin-left: 3px;
+        }
+
+          .qs-heading {
+           font-size: 26px;
+            font-family: 'Times New Roman', Times, serif;
+            color: grey;
+            left: 780px;
+            
+            
+        }
+        .row2left {
+            margin-left: 3px;
+            margin: 5px;
+        }
+
+        .row2left1 {
+            top: 392px;
+            position: absolute;
+            left: 750px;
+            margin: 5px;
+            text-align: right;
+        }
+
+        .row2left2 {
+            top: 412px;
+            position: absolute;
+            left: 750px;
+            margin: 5px;
+            text-align: right;
+        }
+
+        .row2left1 {
+            top: 391px;
+            position: absolute;
+            left: 750px;
+            margin: 5px;
+            text-align: right;
+        }
+
+        .row2left3{
+            top:649px;
+            position: absolute;
+            left: 750px;
+            margin: 5px;
+            text-align: right;
+        }
+
+        .row2left4 {
+            top: 670px;
+            position: absolute;
+            left: 750px;
+            margin: 5px;
+            text-align: right;
+        }
+       
+           
+        
+
+        .row-btn{
+            font-size: x-large;
+            
+        }
+
+        .filters {
+            padding: 2px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: x-large;
+           
+        }
+        .sel-location{
+            padding: 1px;
+            font: bold;
+        }
+        .cuisine{
+            padding: 1px;
+            font: bold;
+        
+        }
+        .cast2 {
+            padding: 1px;
+            font: bold;
+        
+        }
+        .sort {
+            padding: 1px;
+            font: bold;
+            margin-top: 2px; 
+        } 
+
+    
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+      <div style="color:red">
+        <b class="logo">e!</b>
+        <div class="create-account" style="color: white">
+             <input type="text"placeholder="Create an Account"/></div>
+      </div>
+     <div class="login" style="color:white">Login</div>
+    </div>
+    
+    <div class="top-head">Breakfast Places in Mumbai</div>
+
+    <div class="item-box">
+
+     <div class="box" id="box1">
+            <div class="qs-left"><img src="foodimg1.png" class="img"width="120px" height="120px"></div>
+            <div class="qs-right">
+            <h1 class="qs-heading">The Big Chill Cakery</h1>
+            <h2>fort</h2>
+            <h4>Shop 1, Plot D, Samruddhi Complex, Chincholi …</h4>
+     </div>
+            <hr/>
+        <div class="row2left"> <div style="color:grey" >CUISINE :
+             <div>COST FOR TWO :</div>
+             </div>
+             
+
+             <div class="row2left1" style="color:grey" >bakery</div> 
+                <div class="row2left2" style="color:grey">₹700</div>
+                
+                
+            </div>
+             <!-- <div class="row2right"><div style="color:grey">bakery 
+             <div>₹700 </div>
+             </div>
+        
+        </div> -->
+
+        <div class="box" id="box2">
+             <div class="qs-left"><img src="foodimg1.png"class="img" width="120px" height="120px"></div>
+             <div class="qs-right">
+             <h1 class="qs-heading">The Bake Shop</h1>
+             <h2>fort</h2>
+             <h4>Shop 1, Plot D, Samruddhi Complex, Chincholi …</h4></div>
+        
+        
+            <hr/>
+            <div class="row2left"><div style="color:grey" >CUISINE :
+             <div>COST FOR TWO :</div>
+            </div>
+
+             <div class="row2left3" style="color:grey" >bakery</div> 
+             <div class="row2left4" style="color:grey">₹700</div>
+                
+                
+        </div>
+        <!-- </div>
+
+        <div class="row2left1"><div style="color:grey" >bakery
+            <div>₹700</div>
+       </div>
+       </div> -->
+            
+             <!-- <div class="row2right"><div style="color:grey">bakery
+             <div>₹700 </div>
+             </div>
+        </div> -->
+
+    </div>
+
+    <div class="row-btn">
+        <button><</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>></button>
+    </div>
+       
+    
+
+    
+    
+
+    <div class="box" id="box-3">
+ <div class="content-box">
+    <div style="color:grey" class="filters">Filters</div>
+    <br/>
+
+     <div class="sel-location">Select Location
+     <br/>
+        <select>
+        <option>Pitam pura</option>
+        <option>Nsp</option>
+        <option>New Delhi</option>
+        <option>other</option>
+        </select></div>
+        <br/>
+    
+    <div class="cuisine">Cuisine
+    <br/>
+    <input type="checkbox"/>North indian
+    <br/>
+    <input type="checkbox"/>South indian
+    <br/>
+    <input type="checkbox"/>Chinese
+    <br/>
+    <input type="checkbox"/>Fast food
+    <br/>
+    <input type="checkbox"/>Street Food</div>
+    <br/>
+
+    <div class="cast2">Cast For Two
+    <br/>
+    <input type="radio"name="price"/>Less than 500<br/>
+    <input type="radio"name="price"/>500-1000<br/>
+    <input type="radio"name="price"/>1000-1500<br/>
+    <input type="radio"name="price"/>1500-2000<br/></div>
+
+
+    <div class="sort">Sort
+       
+    <br/>
+    <input type="radio"name="cost"/>Price low to high<br/>
+    <input type="radio"name="cost"/>Price high to low<br/></div>
+
+    
+</div>
+</div>
+    
+</body>
+</html>
